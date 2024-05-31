@@ -1,0 +1,22 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "ZGIT_TEST_CHECK",
+    "originalLanguage": "zh"
+  },
+  "category": "ZGIT_TEST_CATE",
+  "implementingClass": "ZLS_CLAS_ATCCHECK3",
+  "checkType": "remoteEnabled",
+  "parameters": [
+    {
+      "name": "CheckMoves",
+      "description": "SS",
+      "hidden": true
+    },
+    {
+      "name": "CheckComputes",
+      "description": "SS",
+      "hidden": true
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZLS_CLAS_ATCCHECK3</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>Example implementation of an ATC check</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>CMP</KEY>
+     <ENTRY>Superfluous COMPUTE.</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DES</KEY>
+     <ENTRY>Detect obsolete MOVE and COMPUTE statements.</ENTRY>
+     <LENGTH>88</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>MOV</KEY>
+     <ENTRY>Don&apos;t use MOVE!</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>QCM</KEY>
+     <ENTRY>Remove COMPUTE</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>QMV</KEY>
+     <ENTRY>Replace MOVE with assignment</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>CMP</KEY>
+       <ENTRY>Überflüssiges COMPUTE.</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DES</KEY>
+       <ENTRY>Obsolete MOVE- und COMPUTE-Anweisungen ermitteln.</ENTRY>
+       <LENGTH>88</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MOV</KEY>
+       <ENTRY>MOVE nicht verwenden</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>QCM</KEY>
+       <ENTRY>COMPUTE entfernen</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>QMV</KEY>
+       <ENTRY>MOVE mit Zuordnung ersetzen</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>CMP</KEY>
+       <ENTRY>Superfluous COMPUTE.</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DES</KEY>
+       <ENTRY>Detect obsolete MOVE and COMPUTE statements.</ENTRY>
+       <LENGTH>88</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MOV</KEY>
+       <ENTRY>Don&apos;t use MOVE!</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>QCM</KEY>
+       <ENTRY>Remove COMPUTE</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>QMV</KEY>
+       <ENTRY>Replace MOVE with assignment</ENTRY>
+       <LENGTH>56</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,22 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "ZGIT_TEST_VARIANT",
+    "originalLanguage": "zh"
+  },
+  "selectedChecks": [
+    {
+      "checkName": "ZGIT_TEST_CHECK",
+      "parameters": [
+        {
+          "name": "CheckMoves",
+          "value": "true"
+        },
+        {
+          "name": "CheckComputes",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
